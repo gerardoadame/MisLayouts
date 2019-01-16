@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
               switch (rand)
               {
                   case 0: lp.gravity=Gravity.CENTER;break;
-                  case 1: lp.gravity=Gravity.LEFT;break;
+                  case 1: lp.gravity=Gravity.RIGHT;break;
               }
 
 
