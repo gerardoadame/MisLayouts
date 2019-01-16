@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--<Button-->
+        <!--android:id="@+id/miboton"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:text="@string/sinnombre"-->
+        <!--android:layout_gravity="center"-->
+        <!--/>-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/btn1"
+        android:text="miboton"
+
+        />
+
+    <LinearLayout
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+
+        >
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:text="0"
+            android:gravity="center"
+            android:id="@+id/texto"
+            android:textSize="25dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/btncentro"
+            />
+
+    </LinearLayout>
+    <!--android:layout_gravity="center_horizontal|bottom"-->
+    <!--<LinearLayout-->
+        <!--android:layout_width="170dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_gravity="right|bottom"-->
+        <!--android:gravity="right"-->
+        <!--&gt;-->
+        <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="50dp" />-->
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent" />-->
+
+
+    <!--</LinearLayout>-->
+
+</FrameLayout>
