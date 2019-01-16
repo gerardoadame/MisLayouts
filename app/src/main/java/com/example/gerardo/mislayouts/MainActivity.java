@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        btn1=findViewById(R.id.btn1);
         boton=findViewById(R.id.btncentro);
         texto=findViewById(R.id.texto);
         texto.setText(R.string.sinnombre);
@@ -41,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
 //        btn1=findViewById(R.id.miboton);
 
 
-        btn1=findViewById(R.id.btn1);
+
 
         new CountDownTimer(100000,100)
         {
@@ -62,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
                   case 0: lp.gravity=Gravity.CENTER;break;
                   case 1: lp.gravity=Gravity.RIGHT;break;
               }
+              btn1.setLayoutParams(lp);
 
 
           }
