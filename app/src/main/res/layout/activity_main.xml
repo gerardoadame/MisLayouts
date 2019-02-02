@@ -13,37 +13,34 @@
         <!--android:text="@string/sinnombre"-->
         <!--android:layout_gravity="center"-->
         <!--/>-->
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:id="@+id/btn1"-->
+        <!--android:text="@string/sinnombre"-->
+        <!--/>-->
     <Button
         android:layout_width="wrap_content"
         android:layout_height="50dp"
-        android:id="@+id/btn1"
-        android:text="miboton"
-
+        android:id="@+id/btncentro"
+        android:text="Presiona"
+        />
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/texto"
+        android:textSize="25sp"
         />
 
-    <LinearLayout
-        android:layout_width="170dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:orientation="vertical"
 
-        >
-        <TextView
-            android:layout_width="80dp"
-            android:layout_height="50dp"
-            android:text="0"
-            android:gravity="center"
-            android:id="@+id/texto"
-            android:textSize="25dp"
-            />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="50dp"
-            android:id="@+id/btncentro"
-            />
 
-    </LinearLayout>
+
+
+
+
+
+
     <!--android:layout_gravity="center_horizontal|bottom"-->
     <!--<LinearLayout-->
         <!--android:layout_width="170dp"-->
